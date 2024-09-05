@@ -3,64 +3,40 @@ body {
     background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
     font-family: 'Montserrat';
     font-size: 20px;
-    margin-top: 35px;
+    margin: 0px;
+    
+}
+main{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+h1{
+    text-align: center;
+}
+.navbar ul{
+    overflow: hidden;
+list-style-type: none;
+background-color: black; 
+font-family: calibri; 
+padding: 0px; 
+margin: 0px;
+text-decoration-color: white; 
+font-weight: bold; 
 }
 
-.rectangle {
-    background: rgba(7, 88, 123, 0.251);
-    border-radius: 20px;
-    align-items: center;
-    max-width: fit-content;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 20px;
-    padding: 10px;
-}
-
-.square {
-    background: rgba(7, 88, 123, 0.251);
-    border-radius: 20px;
-    padding:2px;
-    margin:45px;
-    margin-bottom: 5px;
-    max-width: fit-content;
-}
-
-.squareOne {
-    background: rgba(7, 88, 123, 0.251);
-    border-radius: 20px;
-    padding:2px;
-    margin:10px;
-    max-width: fit-content;
-}
-
-#title1,
-#title2
-#title3 {
-    padding: 0;
-}
-
-#title1 
+.navdiv a
 {
-    margin:10px;
+color: white;
+text-decoration: none;
+padding: 15px;
+display: block;
+text-align: center;
 }
 
-#title2
-{
-    margin: 20px;
+.navdiv a:hover{
+    background-color: rgb(45, 45, 45); 
 }
 
-#title3
-{
-    margin: 20px;
-}
-
-.questions{
-    padding:30px;
-}
-
-.images
-{
-    float:right;
-    margin-right: 30px;
+.navdiv li{
+    float: left;
 }
