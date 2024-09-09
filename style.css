@@ -182,7 +182,7 @@ h1 {
     font-style: italic;
     background-color: lightgray;
     overflow-y: auto;
-
+    z-index: 1;
 
 }
 
@@ -329,13 +329,15 @@ h1 {
     margin-left: 50%;
     padding: 15px;
 }
-.profile-page{
+
+.profile-page {
     background-color: #ffffff27;
     border-radius: 20px;
     padding: 10px;
 
 }
-#profile-header{
+
+#profile-header {
     background-color: #ffffff27;
     border-radius: 20px;
     width: fit-content;
@@ -343,7 +345,8 @@ h1 {
     margin-left: 50%;
     padding: 15px;
 }
-#dashboard-header{
+
+#dashboard-header {
     background-color: #ffffff27;
     border-radius: 20px;
     width: fit-content;
@@ -351,11 +354,50 @@ h1 {
     margin-left: 50%;
     padding: 15px;
 }
-#my-choice{
+
+#my-choice {
     background-color: #ffffff27;
     border-radius: 20px;
     width: fit-content;
     float: center;
     margin-left: 50%;
     padding: 15px;
+}
+
+thead {
+    text-align: center;
+}
+
+.dashboard-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.15);
+    margin-top: 5px;
+    text-align: center;
+    margin-right: 15px;
+}
+
+#thead1, #thead2{
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+}
+
+.dashboard-table td th {
+    padding: 30px 20px;
+    text-align: left;
+}
+.dashboard-table tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.dashboard-table tr:last-of-type {
+    border-bottom: 2px solid #000000;
+}
+#more-courses td{
+    padding: 30px;
+    
 }

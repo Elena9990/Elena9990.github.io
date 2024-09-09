@@ -1,53 +1,147 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <link rel="stylesheet" href="style.css">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>your-title-here</title>
-  </head>
-  <body>
-    <nav class="navbar">
-      <div class="navdiv">
+
+<head>
+  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Dashboard</title>
+
+</head>
+
+<body>
+  <nav class="navbar">
+    <div class="navdiv">
       <ul>
-    <li> <a href="index.html">Home</a> </li>
-    <li> <a href="profile.html">My profile</a> </li>
-    <li> <a href="dashboard.html">Dashboard</a> </li>
-    <li> <a href="blog.html">Blog</a> </li>
-    <li> <a href="blog/study-choice-activities.html">Study-choice-activities</a> </li>
-    <li> <a href="faq.html">FAQ</a> </li>
+        <li> <a href="index.html">Home</a> </li>
+        <li> <a href="profile.html">My profile</a> </li>
+        <li> <a href="dashboard.html">Dashboard</a> </li>
+        <li> <a href="blog.html">Blog</a> </li>
+        <li> <a href="blog/study-choice-activities.html">Study-choice-activities</a> </li>
+        <li> <a href="faq.html">FAQ</a> </li>
       </ul>
     </div>
-    </nav>
-    <aside>
+  </nav>
+  <aside>
     <nav class="navbar-aside">
       <div class="navdiv-aside">
-    <ul>
-      <li> <a href="https://oer.hz.nl/6978cdea-fb31-430b-9bf9-63206aa07754#111-course-and-examination-regulations" target="_blank" rel="noopener noreferrer">The HZ HBO-ICT Course and Examination Regulations (CER)</a></li>
-      <li> <a href="https://oer.hz.nl/6978cdea-fb31-430b-9bf9-63206aa07754#chapter-2-implementation-regulation-hz-cer" target="_blank" rel="noopener noreferrer">The Implementation Regulations (IR) of the HBO-ICT program</a></li>
-      <li> <a href="https://learn.hz.nl/my/" target="_blank" rel="noopener noreferrer">Learn environment">This Learn environment</a></li>
-      <li> <a href="https://portal.hz.nl/" target="_blank" rel="noopener noreferrer">The page in MyHZ with your study progress</a></li>
-      <li> <a href="https://github.com/HZ-HBO-ICT" target="_blank" rel="noopener noreferrer">The GitHub environment of the study program</a></li>
-    </ul>
-  </nav>
+        <ul>
+          <li> <a href="https://oer.hz.nl/6978cdea-fb31-430b-9bf9-63206aa07754#111-course-and-examination-regulations"
+              target="_blank" rel="noopener noreferrer">The HZ HBO-ICT Course and Examination Regulations (CER)</a></li>
+          <li> <a
+              href="https://oer.hz.nl/6978cdea-fb31-430b-9bf9-63206aa07754#chapter-2-implementation-regulation-hz-cer"
+              target="_blank" rel="noopener noreferrer">The Implementation Regulations (IR) of the HBO-ICT program</a>
+          </li>
+          <li> <a href="https://learn.hz.nl/my/" target="_blank" rel="noopener noreferrer">Learn environment">This Learn
+              environment</a></li>
+          <li> <a href="https://portal.hz.nl/" target="_blank" rel="noopener noreferrer">The page in MyHZ with your
+              study progress</a></li>
+          <li> <a href="https://github.com/HZ-HBO-ICT" target="_blank" rel="noopener noreferrer">The GitHub environment
+              of the study program</a></li>
+        </ul>
+    </nav>
   </aside>
-    <h1 id="dashboard-header">Dashboard</h1>
+  <h1 id="dashboard-header">Dashboard</h1>
 
-    <main class="main-dashboard">
-      <h3>Here's the table with my grades</h3>
-      <p>ergegfer</p>
-      <article>
-        Study choice - a combination of the sections Study choice activities, Motivate your study choice and After completing the study... from you SKC document
-      </article>
-      <article>
-        Personal SWOT analysis - taken from your SKC document
-      </article>
-      <article>
-        First feedback - The feedback you had from the SKC assignment and what your thoughts were about that feedback.
-      </article><article>
-        At least one article about the ICT field of work.
-      </article>
-    </main>
-  </body>
+  <main class="main-dashboard">
+    <table class="dashboard-table">
+      <thead id="thead1">
+        <tr>
+          <td>Quarter</td>
+          <td>Course</td>
+          <td>Course number</td>
+          <td>Assesment</td>
+          <td>EC</td>
+          <td>Grade</td>
+        </tr>
+      </thead>
+      <tr>
+        <td rowspan="3">1</td>
+        <td>Program- & Career Orientation (PCO)</td>
+        <td>CU75001V3</td>
+        <td>Assessment website (Individual process assessment)</td>
+        <td>2.5</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Computer Science Basics</td>
+        <td>CU75002V2</td>
+        <td>Written knowledge test</td>
+        <td>5</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Programming Basics</td>
+        <td>CU75003V1</td>
+        <td>Case study exam</td>
+        <td>5</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Object-Oriented Programming (OOP)</td>
+        <td>CU75004V1</td>
+        <td>Presentation & Case study exam</td>
+        <td>5</td>
+        <td></td>
+      <tr>
+        <td>3</td>
+        <td>Framework Project 1</td>
+        <td>CU75080V1</td>
+        <td>On-site case study exam	5/ Database exam/ Group presentation on project result/ Group portfolio with individual elements on requirements</td>
+        <td>10.5</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>Framework Project 2</td>
+        <td>CU75011V3</td>
+        <td>Final delivery/Report of acceptance tests and optional assessments/ IT Development portfolio</td>
+        <td>10</td>
+        <td></td>
+      </tr>
+      
+      <tr id="more-courses">
+       <td> <th colspan="6">More courses</th> </td>
+      </tr>
+      <thead id="thead2">
+      <tr>
+        <td>Blocks</td>
+        <td>Course</td>
+        <td>Course number</td>
+        <td>EC</td>
+        <td>Assessment</td>
+        <td>Grade</td>
+      </tr>
+    </thead>
+      <tr>
+        <td>The whole year</td>
+        <td>Personal Proffesional Development Exploration</td>
+        <td>CU75068V3</td>
+        <td>12.5</td>
+        <td>Criterium focused interview</td>
+        <td></td>
+        </thead>
+      </tr>
+      <tr>
+        <td>3rd and 4th quartile</td>
+        <td>Business IT Consultancy Basics</td>
+        <td>CU75081V1</td>
+        <td>2.5</td>
+        <td>Video</td>
+        <td></td>
+      </tr>
+      <tr></tr>
+        <td>The whole year</td>
+        <td>IT Personality</td>
+        <td>-</td>
+        <td>2.5</td>
+        <td>Portfolio</td>
+        <td></td>
+      </tr>
+    </table>
+  </main>
+</body>
+
 </html>
