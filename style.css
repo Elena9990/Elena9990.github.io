@@ -58,6 +58,9 @@ h1 {
     overflow: hidden;
     float: right;
     font-family: calibri;
+    margin-right: 50px;
+    margin-top: 10px;
+
 }
 
 .profile-table th,
@@ -179,7 +182,7 @@ h1 {
     font-style: italic;
     background-color: lightgray;
     overflow-y: auto;
-    /* Scroll if content overflows */
+
 
 }
 
@@ -188,11 +191,17 @@ h1 {
     width: fit-content;
     margin-right: auto;
     margin-left: auto;
-    text-align: center;
+    padding-left: 160px;
 }
 
 #welcome {
-    margin-top: 10px;
+    background-color: #ffffff27;
+    border-radius: 20px;
+    padding: 5px;
+    width: fit-content;
+    float: center;
+    margin-left: 50%;
+    padding: 15px;
 }
 
 .table-blog {
@@ -206,11 +215,14 @@ h1 {
     overflow: hidden;
     float: right;
     font-family: calibri;
+    margin-right: 40px;
+    margin-bottom: 120px;
 }
 
 .table-blog th,
 .table-blog td {
-    padding: 20px;
+    padding: 10px;
+    padding-left: 40px;
     text-align: left;
     vertical-align: top;
 }
@@ -218,7 +230,7 @@ h1 {
 .table-blog th {
     background-color: #000101;
     color: white;
-    font-size: 20px;
+    font-size: 15px;
     text-transform: uppercase;
     letter-spacing: 1px;
     border-bottom: 2px solid #060a0f;
@@ -229,6 +241,7 @@ h1 {
     background-color: #ffffff;
     color: #333333;
     border-bottom: 1px solid #dddddd;
+    padding-top: 20px;
 }
 
 .table-blog tr:hover {
@@ -261,11 +274,12 @@ h1 {
 
 .profile-info {
     font-family: calibri;
-
+    padding-left: 20px;
 }
 
 .videos {
     font-family: calibri;
+    padding: 25px;
 }
 
 .profile-page {
@@ -286,6 +300,62 @@ h1 {
     position: relative;
     background-color: #ffffff27;
     border-radius: 20px;
-    padding:20px;
-    
+    padding: 50px;
+    margin: 10%;
+    margin-top: 0;
+    margin-bottom: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#blog-header {
+    background-color: #ffffff27;
+    border-radius: 20px;
+    width: fit-content;
+    float: center;
+    margin-left: 50%;
+    padding: 15px;
+}
+
+#blog-2header {
+    text-align: center;
+}
+
+#questions-header {
+    background-color: #ffffff27;
+    border-radius: 20px;
+    width: fit-content;
+    float: center;
+    margin-left: 50%;
+    padding: 15px;
+}
+.profile-page{
+    background-color: #ffffff27;
+    border-radius: 20px;
+    padding: 10px;
+
+}
+#profile-header{
+    background-color: #ffffff27;
+    border-radius: 20px;
+    width: fit-content;
+    float: center;
+    margin-left: 50%;
+    padding: 15px;
+}
+#dashboard-header{
+    background-color: #ffffff27;
+    border-radius: 20px;
+    width: fit-content;
+    float: center;
+    margin-left: 50%;
+    padding: 15px;
+}
+#my-choice{
+    background-color: #ffffff27;
+    border-radius: 20px;
+    width: fit-content;
+    float: center;
+    margin-left: 50%;
+    padding: 15px;
 }
