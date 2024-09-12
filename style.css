@@ -55,7 +55,7 @@ h1 {
     overflow: hidden;
     float: right;
     font-family: calibri;
-    margin-right: 50px;
+    margin-right: 9%;
     margin-top: 10px;
 
 }
@@ -80,6 +80,7 @@ h1 {
     background-color: #ffffff;
     color: #333333;
     border-bottom: 1px solid #dddddd;
+    
 }
 
 .profile-table tr:hover {
@@ -174,8 +175,7 @@ ul li:hover ul.dropdown{
 }
  
 
-#welcome,
-#what-about-me {
+#welcome{
     width: fit-content;
    
 }
@@ -275,7 +275,7 @@ ul li:hover ul.dropdown{
 }
 
 .main-dashboard {
-    max-width: 70%;
+    max-width: 75%;
     float: right;
 }
 
@@ -283,13 +283,12 @@ ul li:hover ul.dropdown{
     max-width: 45%;
     float: right;
     font-family: calibri;
-    position: relative;
     background-color: #ffffff27;
     border-radius: 20px;
     padding: 50px;
-    margin: 20%;
-    margin-top: 0;
+    margin-right: 19%;
     margin-bottom: 50px;
+    margin-top: 10px;
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -298,7 +297,7 @@ ul li:hover ul.dropdown{
     background-color: #ffffff27;
     border-radius: 20px;
     width: fit-content;
-    float: center;
+    margin-left: 13%;
     padding:15px;
 }
 
@@ -321,9 +320,10 @@ ul li:hover ul.dropdown{
 #profile-header {
     background-color: #ffffff27;
     border-radius: 20px;
-    padding: 15px;
     width: fit-content;
-    margin-left:12%;
+    float: center;
+    padding:15px;
+    margin-left: 49%;
 }
 
 #dashboard-header {
@@ -339,8 +339,7 @@ ul li:hover ul.dropdown{
     background-color: #ffffff27;
     border-radius: 20px;
     width: fit-content;
-    float: center;
-    margin-left: 50%;
+    margin-left: 40%;
     padding: 15px;
 }
 
@@ -350,26 +349,49 @@ thead {
 
 .dashboard-table {
     border-collapse: collapse;
-    margin: 25px 0;
     font-size: 0.9em;
     font-family: sans-serif;
     min-width: 400px;
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.15);
     margin-top: 5px;
+    margin-bottom: 20px;
     text-align: center;
-    margin-right: 15px;
+    margin-right: 10%;
+   
 }
 
-#thead1, #thead2{
+#dash-header-1{
     background-color: #000000;
     color: #ffffff;
     text-align: center;
 }
+#dash-header-2{
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+}
+#dash-header-1 td{
+    padding: 15px;
+    text-align: center;
+}
+#dash-header-2 td{
+    padding: 15px;
+    text-align: center;
+}
 
-.dashboard-table td th {
-    padding: 30px 20px;
+.dashboard-table td {
+    padding: 22px;
+    text-align: left;
+
+}
+#more-courses-tr td{
+    text-align: center;
+}
+.dashboard-table th {
+    padding: 22px;
     text-align: left;
 }
+
 .dashboard-table tr {
     border-bottom: 1px solid #dddddd;
 }
@@ -377,10 +399,15 @@ thead {
 .dashboard-table tr:last-of-type {
     border-bottom: 2px solid #000000;
 }
-#more-courses td{
-    padding: 30px;
-    
+
+#td-table-part1{
+    text-align: center;
 }
+
+#more-courses-header{
+    font-size: 20px;
+}
+
 .div-questions{
     background-color: #303030;
     color: #fff;
@@ -414,7 +441,7 @@ summary {
   details[open] div{
     padding: .5em 1em;
   }
-  .div-videos h3{
+  #watch-videos{
     text-align: center;
     margin-bottom: 30px;
     background-color: #010000; 
@@ -432,5 +459,174 @@ summary {
     padding: 2px;
   }
   
+  .div-questions{
+    background-color: #303030;
+    color: #fff;
+    font-size: 1.5rem;
+    
+}
+  .main-feedback{
+    background-color: #ffffff27;
+    border-radius: 20px;
+    padding: 20px;
+    max-width: 70%;
+    margin-left: 22%;
+  }
   
-  
+  #feedback-header {
+    background-color: #ffffff27;
+    border-radius: 20px;
+    width: fit-content;
+    float: center;
+    padding:15px;
+    margin-left: 45%;
+}
+.main-swot{
+    background-color: #ffffff27;
+    border-radius: 20px;
+    padding: 20px;
+    max-width: 70%;
+    margin-left: 22%;
+    padding-bottom: 40%;
+    margin-bottom: 20px;
+}
+#swot-header{
+    background-color: #ffffff27;
+    border-radius: 20px;
+    width: fit-content;
+    float: center;
+    padding:15px;
+    margin-left: 43%;
+}
+.td-blog img{
+    width: 80%;
+   margin-left: 9%;
+}
+.main-my-choice{
+    background-color: #ffffff27;
+    border-radius: 20px;
+    padding: 20px;
+    max-width: 70%;
+    margin-left: 22%;
+    margin-bottom: 20px;
+}
+.main-programming{
+    background-color: #ffffff27;
+    border-radius: 20px;
+    padding: 20px;
+    max-width: 70%;
+    margin-left: 22%;
+    margin-bottom: 20px;
+}
+#programming-header{
+    background-color: #ffffff27;
+    border-radius: 20px;
+    width: fit-content;
+    float: center;
+    padding:15px;
+    margin-left: 43%;
+}
+#ict-header{
+    background-color: #ffffff27;
+    border-radius: 20px;
+    width: fit-content;
+    float: center;
+    padding:15px;
+    margin-left: 43%;
+}
+.main-ict{
+    background-color: #ffffff27;
+    border-radius: 20px;
+    padding: 20px;
+    max-width: 70%;
+    margin-left: 22%;
+    margin-bottom: 20px;
+}
+
+.descriptions-section{
+ margin-left: 60%;
+ margin-top: -105%;
+}
+.descriptions-section p{
+    margin-bottom: 50px;
+}
+#profile-hr{
+    border-color: #000000;
+}
+#profile-info{
+    border-style: ridge;
+    border-color: #000000;
+    border-radius: 10px;
+    border-width: 2px;
+    width: fit-content;
+    padding: 5px;
+}
+#video-header{
+    border-style: ridge;
+    border-color: #000000;
+    border-radius: 10px;
+    border-width: 2px;
+    width: fit-content;
+    padding: 5px;
+}
+.images-profile img{
+    width: 250px;
+    margin: 5px;
+    margin-top: 25px;
+    border-radius: 10px;
+}
+.images-profile{
+    margin-left: 300px;
+    margin-top: -30%;
+}
+#my-choice-header{
+    border-style: ridge;
+    border-color: #000000;
+    border-radius: 10px;
+    border-width: 2px;
+    width: fit-content;
+    padding: 5px;
+}
+#swot-sub-header{
+    border-style: ridge;
+    border-color: #000000;
+    border-radius: 10px;
+    border-width: 2px;
+    width: fit-content;
+    padding: 5px;
+}
+#ul-programming-exp a {
+    color: #30455a;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#ul-programming-exp hover{
+    text-decoration: underline;
+
+}
+#code-img{
+    margin-left: 450px;
+    padding: 15px;
+    padding-bottom: -300px;
+}
+#swot-para{
+    width: 60%;
+}
+.swot-bullet{
+    margin-left: 70%;
+    margin-top: -1242px;
+    border-style: ridge;
+    border-color:#000000;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+#summary-swot-h{
+        border-style: ridge;
+        border-color: #000000;
+        border-radius: 10px;
+        border-width: 2px;
+        width: fit-content;
+        padding: 5px;
+        margin-left: 80px;
+    }
