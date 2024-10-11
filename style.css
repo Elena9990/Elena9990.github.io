@@ -210,6 +210,7 @@ aside {
 
 .main-content{
     margin-top: 80px;
+    max-width: fit-content;
 }
 
 
@@ -253,8 +254,10 @@ aside {
 }
 .main-content ul li{
     margin-left: 10px;
-    margin-bottom: 3px;
+    margin-bottom: 0px;
 }
+
+
 
 
 /*profile page*/
@@ -435,6 +438,27 @@ thead {
     text-align: center;
 }
 
+.progress-bar{
+        background-color: rgb(255, 255, 255);
+        border-radius: 13px;
+        padding: 3px;
+        text-align: right;
+        
+      }
+      .progress-bar h4{
+        text-align: right;
+        height: 27px;
+      }
+      
+      .progress-bar div {
+        background-color: rgba(1, 1, 1, 0.525);
+        width: 85%;
+        height: 25px;
+        border-radius: 10px;
+        text-align: right;
+        margin-bottom: 0%;
+      }
+
 
 
 /*table in the blog page*/
@@ -594,15 +618,18 @@ details[open] div {
 #img-coding {
     position: absolute;
     width: 500px;
-    height: 350px;
-    margin-top: 75px;
+    height: 500px;
+    margin-top: 3px;
     margin-left: 550px;
     border-radius: 10px;
 }
 
-.text-para {
-    text-align: justify;
-    margin: 20px;
+
+#text-para{
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 2px;
+    text-align:center;
 }
 
 #ul-programming-exp a {
@@ -783,6 +810,11 @@ footer p{
     color:white;
     text-align: left;
 
+}
+footer img{
+    height: 40px;
+    width: 170px;
+    float: right;
 }
 
 footer a {
