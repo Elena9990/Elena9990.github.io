@@ -24,7 +24,7 @@ h1 {
     text-decoration-color: white;
     font-weight: bold;
     font-family: 'comic sans ms';
-    
+
 }
 
 .navdiv a {
@@ -66,9 +66,10 @@ ul li:hover ul.dropdown {
 ul li a:hover {
     background-color: #000000;
 }
+
 ul li ul.dropdown li a {
-    font-size: 15px; 
-    color: white; 
+    font-size: 15px;
+    color: white;
 }
 
 /*aside menu*/
@@ -130,6 +131,7 @@ aside {
     background-repeat: no-repeat;
     height: 700px;
 }
+
 #welcome {
     position: absolute;
     top: 15%;
@@ -199,60 +201,92 @@ aside {
     font-size: 16px;
     cursor: pointer;
     border-radius: 10px;
-    
-}
-#line{
-  border: black;
-  height: 3px;
-  color: #333;  
-  background-color: #333;
+
 }
 
-.main-content{
+#line {
+    border: black;
+    height: 3px;
+    color: #333;
+    background-color: #333;
+}
+
+.main-content {
     margin-top: 80px;
     max-width: fit-content;
 }
 
+#netherlands-photo {
+    width: 260px;
+    height: 260px;
+    float: left;
+    margin-left: 230px;
+    margin-top: 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.538);
+}
 
-#introduce-me{
-        background-color: #ffffff27;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.538);
-        border-radius: 20px;
-        border-style: solid;
-        border-color: #ffffff65;
-        padding: 20px;
-        max-width: fit-content;
-        margin-left: 37%;
-        margin-bottom: 20px;
-        margin-top: 40px;
+#hz-logo-app-sciences {
+    width: 280px;
+    height: 130px;
+    float: left;
+    margin-left: -270px;
+    margin-top: 370px;
+    border-radius: 10px;
 }
-.main-content p{ 
-        background-color: #ffffff27;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.538);
-        border-radius: 20px;
-        border-style: solid;
-        border-color: #ffffff65;
-        padding: 20px;
-        max-width: 50%;
-        margin-left: 43%;
-        margin-bottom: 35px;
-        font-size: 18px;
-        margin-top: 10px;
+
+#digital-picture {
+    width: 260px;
+    height: 270px;
+    float: left;
+    margin-left: -270px;
+    margin-top: 620px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.538);
 }
-.main-content h3{
+
+#introduce-me {
     background-color: #ffffff27;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.538);
-        border-radius: 20px;
-        border-style: solid;
-        border-color: #ffffff65;
-        padding: 20px;
-        max-width: 50%;
-        margin-left: 43%;
-        margin-bottom: 20px;
-        font-size: 20px;
-        margin-top: 10px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: #ffffff65;
+    padding: 20px;
+    max-width: fit-content;
+    margin-left: 37%;
+    margin-bottom: 20px;
+    margin-top: 40px;
 }
-.main-content ul li{
+
+.main-content p {
+    background-color: #ffffff27;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.538);
+    border-radius: 20px;
+    border-style: solid;
+    border-color: #ffffff65;
+    padding: 20px;
+    max-width: 50%;
+    margin-left: 35%;
+    margin-bottom: 35px;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.main-content h3 {
+    background-color: #ffffff27;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.538);
+    border-radius: 20px;
+    border-style: solid;
+    border-color: #ffffff65;
+    padding: 20px;
+    max-width: 50%;
+    margin-left: 35%;
+    margin-bottom: 20px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.main-content ul li {
     margin-left: 10px;
     margin-bottom: 0px;
 }
@@ -282,6 +316,7 @@ aside {
     margin-right: 25%;
     margin-bottom: 50px;
 }
+
 .profile-info ul li {
     width: 250px;
 }
@@ -294,6 +329,7 @@ aside {
 #profile-info {
     border-style: ridge;
     border-color: #000000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.538);
     border-radius: 10px;
     border-width: 2px;
     width: fit-content;
@@ -324,6 +360,7 @@ aside {
     text-align: center;
     margin-bottom: 30px;
     background-color: #010000e3;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.538);
     color: #dddddd;
     padding: 20px;
     width: fit-content;
@@ -335,6 +372,7 @@ aside {
 iframe {
     border-radius: 30px;
     padding: 2px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.538);
 }
 
 .descriptions-section {
@@ -349,6 +387,7 @@ iframe {
 }
 
 #video-header {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.538);
     border-style: ridge;
     border-color: #000000;
     border-radius: 10px;
@@ -413,7 +452,7 @@ thead {
 }
 
 #dash-header-1 {
-    background-color: #000000e0;
+    background-color: #000000c7;
     color: #ffffff;
     text-align: center;
 }
@@ -438,32 +477,28 @@ thead {
     text-align: center;
 }
 
-.progress-bar{
-        background-color: rgb(255, 255, 255);
-        border-radius: 13px;
-        padding: 3px;
-        text-align: right;
-        
-      }
-      .progress-bar h4{
-        text-align: right;
-        height: 27px;
-      }
-      
-      .progress-bar div {
-        background-color: rgba(1, 1, 1, 0.525);
-        width: 85%;
-        height: 25px;
-        border-radius: 10px;
-        text-align: right;
-        margin-bottom: 0%;
-      }
+.progress-bar {
+    background-color: rgba(0, 0, 0, 0.819);
+    border-radius: 13px;
+    padding: 3px;
+    text-align: right;
+    width: 1015px;
+}
+
+.progress-bar div {
+    background-color: #ffffffb4;
+    width: 85%;
+    height: 25px;
+    border-radius: 10px;
+    margin-bottom: 0%;
+}
 
 
 
 /*table in the blog page*/
 #blog-header {
     background-color: #ffffff27;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.538);
     border-radius: 20px;
     width: fit-content;
     margin-left: 13%;
@@ -477,7 +512,8 @@ thead {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.748);
     border-radius: 10px;
     overflow: hidden;
-    font-family: 'comic sans ms';;
+    font-family: 'comic sans ms';
+    ;
 }
 
 
@@ -508,6 +544,8 @@ thead {
 .td-blog img {
     width: 80%;
     margin-left: 9%;
+    height: 470px;
+    border-radius: 20px;
 }
 
 .table-blog a {
@@ -580,14 +618,67 @@ details[open] div {
     font-size: 18px;
 }
 
+#games-picture {
+    width: 420px;
+    height: 350px;
+    margin-top: 20px;
+    float: right;
+    margin-right: 15px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.538);
+}
+
+#apps-picture {
+    width: 420px;
+    height: 300px;
+    margin-top: 15px;
+    float: right;
+    margin-right: 15px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.538);
+}
+
+#ui-ux-picture {
+    width: 420px;
+    height: 300px;
+    margin-top: -180px;
+    float: right;
+    margin-right: 15px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.538);
+}
+
 #my-choice-header {
     border-style: ridge;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.538);
     border-color: #000000;
     border-radius: 10px;
     border-width: 2px;
     width: fit-content;
     padding: 5px;
 }
+
+.main-my-choice p {
+    width: 600px;
+}
+#back-button-st-choice {
+    position: absolute;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.538);
+    width: fit-content;
+    height: 40px;
+    left: 90%;
+    margin-top: -10px;
+    transform: translate(-50%, -50%);
+    background-color: #000000cd;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
 
 /*programming exeprience page*/
 #programming-header {
@@ -625,11 +716,13 @@ details[open] div {
 }
 
 
-#text-para{
+#text-para {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.538);
     border-style: solid;
     border-radius: 20px;
     border-width: 2px;
-    text-align:center;
+    text-align: center;
+    padding: 5px;
 }
 
 #ul-programming-exp a {
@@ -668,6 +761,7 @@ details[open] div {
 }
 
 #swot-sub-header {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.538);
     border-style: ridge;
     border-color: #000000;
     border-radius: 10px;
@@ -686,11 +780,14 @@ details[open] div {
     border-style: ridge;
     border-color: #000000;
     border-radius: 10px;
+    border-width: 2px;
     padding-left: 10px;
     font-size: 18px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.538);
 }
 
 #summary-swot-h {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.538);
     border-style: ridge;
     border-color: #000000;
     border-radius: 10px;
@@ -699,6 +796,24 @@ details[open] div {
     padding: 5px;
     margin-left: 80px;
     font-size: 18px;
+}
+
+#back-button-swot {
+    position: absolute;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.538);
+    width: fit-content;
+    height: 40px;
+    left: 90%;
+    margin-top: 720px;
+    transform: translate(-50%, -50%);
+    background-color: #000000cd;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
 }
 
 /*ict field of work*/
@@ -733,12 +848,65 @@ details[open] div {
 }
 
 #ict-work-h {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.538);
     border-style: ridge;
     border-color: #000000;
     border-radius: 10px;
     border-width: 2px;
     width: fit-content;
     padding: 5px;
+}
+
+#info-text-ict {
+    max-width: 600px;
+}
+
+#youtube-picture {
+    width: 420px;
+    height: 340px;
+    margin-top: 50px;
+    float: right;
+    margin-right: 30px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.538);
+}
+
+#fb-picture {
+    width: 420px;
+    height: 390px;
+    margin-top: -430px;
+    float: right;
+    margin-right: 30px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.538);
+}
+
+#spotify-picture {
+    width: 420px;
+    height: 340px;
+    margin-top: -370px;
+    float: right;
+    margin-right: 30px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.538);
+}
+
+#back-button {
+    position: absolute;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.538);
+    width: fit-content;
+    height: 40px;
+    left: 90%;
+    margin-top: -30px;
+    transform: translate(-50%, -50%);
+    background-color: #000000cd;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
 }
 
 /*feedback page*/
@@ -750,7 +918,9 @@ details[open] div {
     max-width: 70%;
     margin-left: 22%;
 }
-.main-feedback h4{
+
+.main-feedback h4 {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.538);
     border-style: ridge;
     border-color: #000000;
     border-radius: 10px;
@@ -767,6 +937,24 @@ details[open] div {
     float: center;
     padding: 15px;
     margin-left: 45%;
+}
+
+#back-button-feedback {
+    position: absolute;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.538);
+    width: fit-content;
+    height: 40px;
+    left: 90%;
+    margin-top: -15px;
+    transform: translate(-50%, -50%);
+    background-color: #000000cd;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
 }
 
 /*faq page*/
@@ -803,15 +991,17 @@ footer {
     padding: 10px;
     text-align: center;
     box-sizing: border-box;
-    margin-top: 20px; 
-    clear: both; 
+    margin-top: 20px;
+    clear: both;
 }
-footer p{
-    color:white;
+
+footer p {
+    color: white;
     text-align: left;
 
 }
-footer img{
+
+footer img {
     height: 40px;
     width: 170px;
     float: right;
@@ -825,4 +1015,3 @@ footer a {
 footer a:hover {
     text-decoration: underline;
 }
-
