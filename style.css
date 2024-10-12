@@ -217,29 +217,29 @@ aside {
 }
 
 #netherlands-photo {
-    width: 260px;
+    width: 360px;
     height: 260px;
     float: left;
-    margin-left: 230px;
+    margin-left: 150px;
     margin-top: 0;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.538);
 }
 
 #hz-logo-app-sciences {
-    width: 280px;
+    width: 380px;
     height: 130px;
     float: left;
-    margin-left: -270px;
+    margin-left: -380px;
     margin-top: 370px;
     border-radius: 10px;
 }
 
 #digital-picture {
-    width: 260px;
+    width: 360px;
     height: 270px;
     float: left;
-    margin-left: -270px;
+    margin-left: -355px;
     margin-top: 620px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.538);
@@ -475,6 +475,10 @@ thead {
 #dash-header-2 td {
     padding: 15px;
     text-align: center;
+}
+
+#grade{
+    background-color: #ddddddc1;
 }
 
 .progress-bar {
@@ -737,6 +741,24 @@ details[open] div {
 
 }
 
+#back-button-programming{
+    position: absolute;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.538);
+    width: fit-content;
+    height: 40px;
+    left: 90%;
+    margin-top: -30px;
+    transform: translate(-50%, -50%);
+    background-color: #000000cd;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
 /*my pesronal swot analysis page*/
 #swot-header {
     background-color: #ffffff27;
@@ -814,6 +836,16 @@ details[open] div {
     font-size: 16px;
     cursor: pointer;
     border-radius: 10px;
+}
+
+#personal-swot-analysis{
+    width: 320px;
+    height: 540px;
+    margin-top: 100px;
+    float: right;
+    margin-right: 0px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.538);
 }
 
 /*ict field of work*/
