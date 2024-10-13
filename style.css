@@ -10,7 +10,6 @@ h1 {
     text-align: center;
 }
 
-
 /*navigation bar*/
 .navbar {
     position: sticky;
@@ -24,13 +23,11 @@ h1 {
     list-style-type: none;
     background-color: #000000cd;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.538);
-    font-family: calibri;
     padding: 0px;
     margin: 0px;
     text-decoration-color: white;
     font-weight: bold;
     font-family: 'comic sans ms';
-
 }
 
 .navdiv a {
@@ -52,7 +49,6 @@ h1 {
 .navdiv li {
     float: left;
 }
-
 
 /*dropdown menu*/
 ul li ul.dropdown {
@@ -131,7 +127,6 @@ aside {
 
 /*index page*/
 .background-container-index-page {
-
     background-image: url('images/newest_one-transformed.jpeg');
     background-size: cover;
     background-position: center;
@@ -178,7 +173,6 @@ aside {
     color: rgb(0, 0, 0);
     text-align: left;
     font-size: 24px;
-
 }
 
 #me-photo {
@@ -208,7 +202,6 @@ aside {
     font-size: 16px;
     cursor: pointer;
     border-radius: 10px;
-
 }
 
 #line {
@@ -299,7 +292,6 @@ aside {
     margin-top: 10px;
 }
 
-
 /*profile page*/
 #profile-header {
     background-color: #ffffff2f;
@@ -354,17 +346,9 @@ aside {
     border-radius: 10px;
 }
 
-#inner-me-header{
-    border-style: ridge;
-    border-color: #000000;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.538);
-    border-radius: 10px;
-    border-width: 2px;
-    width: fit-content;
-    padding: 5px;
-}
-
-#hobbies-header{
+#inner-me-header,
+#hobbies-header
+{
     border-style: ridge;
     border-color: #000000;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.538);
@@ -599,7 +583,6 @@ summary {
     padding: 10px;
     display: flex;
     justify-content: space-between;
-    
 }
 
 summary:after {
@@ -634,7 +617,6 @@ footer {
 footer p {
     color: white;
     text-align: left;
-
 }
 
 footer img {

@@ -31,34 +31,31 @@
     font-size: 18px;
 }
 
-#games-picture {
-    width: 420px;
-    height: 350px;
-    margin-top: 20px;
+#games-picture,
+#apps-picture,
+#ui-ux-picture{
     float: right;
     margin-right: 15px;
     border-radius: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.538);
+}
+
+#games-picture {
+    width: 420px;
+    height: 350px;
+    margin-top: 20px;
 }
 
 #apps-picture {
     width: 420px;
     height: 300px;
     margin-top: 15px;
-    float: right;
-    margin-right: 15px;
-    border-radius: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.538);
 }
 
 #ui-ux-picture {
     width: 420px;
     height: 300px;
     margin-top: -180px;
-    float: right;
-    margin-right: 15px;
-    border-radius: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.538);
 }
 
 .my-choice-main p {
@@ -82,7 +79,6 @@
     cursor: pointer;
     border-radius: 10px;
 }
-
 
 /*programming exeprience page*/
 #programming-header {
@@ -340,34 +336,29 @@
     max-width: 600px;
 }
 
-#youtube-picture {
+#youtube-picture,
+#fb-picture,
+#spotify-picture{
     width: 420px;
-    height: 340px;
-    margin-top: 50px;
     float: right;
     margin-right: 30px;
     border-radius: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.538);
+}
+
+#youtube-picture {
+    height: 340px;
+    margin-top: 50px;
 }
 
 #fb-picture {
-    width: 420px;
     height: 390px;
     margin-top: -430px;
-    float: right;
-    margin-right: 30px;
-    border-radius: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.538);
 }
 
 #spotify-picture {
-    width: 420px;
     height: 340px;
     margin-top: -370px;
-    float: right;
-    margin-right: 30px;
-    border-radius: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.538);
 }
 
 #back-button {
