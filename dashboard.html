@@ -13,20 +13,20 @@
 <body>
   <nav class="navbar">
     <div class="navdiv">
-    <ul>
-     <li> <a href="index.html">Home</a> </li>
-     <li> <a href="profile.html">My profile</a> </li>
-     <li> <a href="dashboard.html">Dashboard</a> </li>
-     <li> <a href="faq.html">FAQ</a> </li>
-     <li>
-        <a href="blog.html">Blog</a>
-     <ul class="dropdown">
-      <li> <a href="blog/study-choice-activities.html">Study-choice-activities</a> </li>
-      <li> <a href="blog/programming-experience.html">Programming experience</a> </li>
-      <li> <a href="blog/personal-swot-analysis.html">Personal SWOT Analysis</a> </li>
-      <li> <a href="blog/ict-field-work.html">ICT Field Word</a> </li>
-      <li> <a href="blog/first-feedback.html">First Feedback</a> </li>
-     </ul>
+      <ul>
+        <li> <a href="index.html">Home</a> </li>
+        <li> <a href="profile.html">My profile</a> </li>
+        <li> <a href="dashboard.html" class="active">Dashboard</a> </li>
+        <li> <a href="faq.html">FAQ</a> </li>
+        <li>
+          <a href="blog.html">Blog</a>
+          <ul class="dropdown">
+            <li> <a href="blog/ict-field-work.html">ICT field Work</a> </li>
+            <li> <a href="blog/first-feedback.html">First Feedback</a> </li>
+            <li> <a href="blog/personal-swot-analysis.html">Personal SWOT Analysis</a> </li>
+            <li> <a href="blog/programming-experience.html">Programming experience</a> </li>
+            <li> <a href="blog/study-choice-activities.html">Study-choice-activities</a> </li>
+          </ul>
     </div>
     </ul>
 
@@ -35,24 +35,29 @@
 
   <aside>
     <div class="navbar-aside">
-    <ul>
-      <li> <a href="https://oer.hz.nl/6978cdea-fb31-430b-9bf9-63206aa07754#111-course-and-examination-regulations" target="_blank" rel="noopener noreferrer">The HZ HBO-ICT Course and Examination Regulations (CER)</a></li>
-      <hr>
-      <li> <a href="https://oer.hz.nl/6978cdea-fb31-430b-9bf9-63206aa07754#chapter-2-implementation-regulation-hz-cer" target="_blank" rel="noopener noreferrer">The Implementation Regulations (IR) of the HBO-ICT program</a></li>
-      <hr>
-      <li> <a href="https://learn.hz.nl/my/" target="_blank" rel="noopener noreferrer">Learn environment</a></li>
-      <hr>
-      <li> <a href="https://hz.osiris-student.nl/voortgang" target="_blank" rel="noopener noreferrer">The page in MyHZ with your study progress</a></li>
-      <hr>
-      <li> <a href="https://github.com/HZ-HBO-ICT" target="_blank" rel="noopener noreferrer">The GitHub environment of the study program</a></li>
-    </ul>
-  </div>
+      <ul>
+        <li> <a href="https://oer.hz.nl/6978cdea-fb31-430b-9bf9-63206aa07754#111-course-and-examination-regulations"
+            target="_blank" rel="noopener noreferrer">The HZ HBO-ICT Course and Examination Regulations (CER)</a></li>
+        <hr>
+        <li> <a href="https://oer.hz.nl/6978cdea-fb31-430b-9bf9-63206aa07754#chapter-2-implementation-regulation-hz-cer"
+            target="_blank" rel="noopener noreferrer">The Implementation Regulations (IR) of the HBO-ICT program</a>
+        </li>
+        <hr>
+        <li> <a href="https://learn.hz.nl/my/" target="_blank" rel="noopener noreferrer">Learn environment</a></li>
+        <hr>
+        <li> <a href="https://hz.osiris-student.nl/voortgang" target="_blank" rel="noopener noreferrer">The page in MyHZ
+            with your study progress</a></li>
+        <hr>
+        <li> <a href="https://github.com/HZ-HBO-ICT" target="_blank" rel="noopener noreferrer">The GitHub environment of
+            the study program</a></li>
+      </ul>
+    </div>
   </aside>
   <h1 id="dashboard-header">Dashboard</h1>
 
-  <main class="main-dashboard">
+  <main class="dashboard-main">
     <table class="dashboard-table">
-      <thead id="dash-header-1">
+      <thead id="dash-thead-1">
         <tr>
           <td>Quarter</td>
           <td>Course</td>
@@ -62,88 +67,88 @@
         </tr>
       </thead>
       <tr>
-        <td id="td-table-part1" rowspan="3">1</td>
+        <td id="quartile-td" rowspan="3">1</td>
         <td>Program- & Career Orientation (PCO)</td>
         <td>Individual process assessment (Assessment website)</td>
         <td>2.5</td>
-        <td><input type="number" id="grade" name="grade" min="1" max="10"></td>
+        <td><input type="number" id="grade-input" name="grade" min="1" max="10"></td>
       </tr>
       <tr>
         <td>Computer Science Basics</td>
         <td>Written knowledge test</td>
         <td>5</td>
-        <td><input type="number" id="grade" name="grade" min="1" max="10"></td>
+        <td><input type="number" id="grade-input" name="grade" min="1" max="10"></td>
       </tr>
       <tr>
         <td>Programming Basics</td>
         <td>Case study exam</td>
         <td>5</td>
-        <td><input type="number" id="grade" name="grade" min="1" max="10"></td>
+        <td><input type="number" id="grade-input" name="grade" min="1" max="10"></td>
       </tr>
       <tr>
-        <td id="td-table-part1" rowspan="2">2</td>
+        <td id="quartile-td" rowspan="2">2</td>
         <td rowspan="2">Object-Oriented Programming (OOP)</td>
         <td>Presentation</td>
         <td>5</td>
-        <td><input type="number" id="grade" name="grade" min="1" max="10"></td>
+        <td><input type="number" id="grade-input" name="grade" min="1" max="10"></td>
       </tr>
-        <tr>
-          <td>Study case exam</td>
-          <td>5</td>
-          <td><input type="number" id="grade" name="grade" min="1" max="10"></td>
-        </tr>
       <tr>
-        <td id="td-table-part1" rowspan="4">3</td>
-        <td rowspan="4">Framework Project 1</td>
-        <td>On-site case study exam	5</td>
+        <td>Study case exam</td>
         <td>5</td>
-        <td><input type="number" id="grade" name="grade" min="1" max="10"></td>
+        <td><input type="number" id="grade-input" name="grade" min="1" max="10"></td>
+      </tr>
+      <tr>
+        <td id="quartile-td" rowspan="4">3</td>
+        <td rowspan="4">Framework Project 1</td>
+        <td>On-site case study exam 5</td>
+        <td>5</td>
+        <td><input type="number" id="grade-input" name="grade" min="1" max="10"></td>
       </tr>
       <tr>
         <td>Database exam</td>
         <td>1.25</td>
-        <td><input type="number" id="grade" name="grade" min="1" max="10"></td>
+        <td><input type="number" id="grade-input" name="grade" min="1" max="10"></td>
       </tr>
       <tr>
         <td> Group presentation on project result</td>
         <td>2.5</td>
-        <td><input type="number" id="grade" name="grade" min="1" max="10"></td>
+        <td><input type="number" id="grade-input" name="grade" min="1" max="10"></td>
       </tr>
       <tr>
         <td>Group portfolio with individual elements on requirements</td>
         <td>1.25</td>
-        <td><input type="number" id="grade" name="grade" min="1" max="10"></td>
+        <td><input type="number" id="grade-input" name="grade" min="1" max="10"></td>
       </tr>
       <tr>
-        <td id="td-table-part1" rowspan="3">4</td>
+        <td id="quartile-td" rowspan="3">4</td>
         <td rowspan="3">Framework Project 2</td>
         <td>Final delivery</td>
         <td>2.5</td>
-        <td><input type="number" id="grade" name="grade" min="1" max="10"></td>
+        <td><input type="number" id="grade-input" name="grade" min="1" max="10"></td>
       </tr>
       <tr>
         <td>Report of acceptance tests and optional assessments</td>
         <td>2.5</td>
-        <td><input type="number" id="grade" name="grade" min="1" max="10"></td>
+        <td><input type="number" id="grade-input" name="grade" min="1" max="10"></td>
       </tr>
       <tr>
         <td>IT Development portfolio</td>
         <td>5</td>
-        <td><input type="number" id="grade" name="grade" min="1" max="10"></td>
+        <td><input type="number" id="grade-input" name="grade" min="1" max="10"></td>
       </tr>
       <tr></tr>
-        <td>3rd and 4th quartile</td>
-        <td>Business IT Consultancy Basics</td>
-        <td>Video</td>
-        <td>2.5</td>
-        <td><input type="number" id="grade" name="grade" min="1" max="10"></td>
+      <td>3rd and 4th quartile</td>
+      <td>Business IT Consultancy Basics</td>
+      <td>Video</td>
+      <td>2.5</td>
+      <td><input type="number" id="grade-input" name="grade" min="1" max="10"></td>
       </tr>
       <tr>
         <td>The whole year</td>
         <td>Personal Proffesional Development Exploration</td>
         <td>Criterium focused interview</td>
         <td>12.5</td>
-        <td><input type="number" id="grade" name="grade" min="1" max="10"></td>
+        <td><input type="number" id="grade-input" name="grade" min="1" max="10"></td>
         </thead>
       </tr>
       <tr>
@@ -151,12 +156,12 @@
         <td>IT Personality</td>
         <td>Portfolio</td>
         <td>2.5</td>
-        <td><input type="number" id="grade" name="grade" min="1" max="10"></td>
+        <td><input type="number" id="grade-input" name="grade" min="1" max="10"></td>
       </tr>
     </table>
     <h3>Study progress bar</h3>
     <div class="progress-bar">
-      <div class="progress-bar"></div> 
+      <div class="progress-bar"></div>
     </div>
     <p>
       In order to pass the first year, you need to take at least 45 ECs out of 60 ECs.
@@ -165,13 +170,13 @@
   </main>
   <footer>
     <p>&copy; 2024 Elena |
-       <a href="https://github.com/Elena9990" target="_blank">GitHub</a> |
-       <a href="https://www.facebook.com/profile.php?id=100008649525337" target="_blank">Facebook</a> 
-       <a href="https://hz.nl/" target="_blank">
+      <a href="https://github.com/Elena9990" target="_blank">GitHub</a> |
+      <a href="https://www.facebook.com/profile.php?id=100008649525337" target="_blank">Facebook</a>
+      <a href="https://hz.nl/" target="_blank">
         <img src="../images/hz-university-of-applied-sciences.png">
       </a>
     </p>
- </footer>
+  </footer>
 </body>
 
 </html>
