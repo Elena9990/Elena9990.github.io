@@ -47,7 +47,7 @@ body {
 
 /*dropdown menu*/
 ul li ul.dropdown {
-    width: 66%;
+    width: 60.5%;
     background: rgba(0, 0, 0, 0.249);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.538);
     position: absolute;
