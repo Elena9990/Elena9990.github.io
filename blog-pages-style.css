@@ -1,12 +1,12 @@
 /*pages section in the blog table*/
 
-/*my choice activities page*/
+/*my study choice page*/
 #my-choice {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.538);
     background-color: #ffffff27;
     border-radius: 20px;
     width: fit-content;
-    margin-left: 40%;
+    margin-left: 45%;
     padding: 15px;
 }
 
